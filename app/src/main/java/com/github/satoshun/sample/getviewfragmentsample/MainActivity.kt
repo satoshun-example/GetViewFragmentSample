@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
           .setAction("Action", null).show()
     }
+
+    Log.d("From MainActivity", fab.findAttachFragment().toString())
   }
 
   override fun onCreateOptionsMenu(menu: Menu): Boolean {
